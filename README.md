@@ -26,3 +26,74 @@ This course will use Grokking Algorithms by Aditya Y. Bhanrgava as a textbook fo
 
 #### Web Programming
 This course will use Flask Web Development, 2nd edition by Miguel Grinberg as a textbook for web programming.
+
+---
+## Week1 - Refresh Previous Course
+
+#### Routes and Templates
+
+#### CSS
+
+#### Flask Template 
+
+---
+
+## Week2 - Bootstrap: Better CSS
+
+Bootstrap
+
+Bootstrap in Python
+
+---
+
+## Week3 - Web Forms
+
+Web Forms
+
+Web Forms in Python
+
+---
+
+## Week4 - Database Programming
+
+Database
+
+SQL
+
+SQL vs. NoSQL
+
+MySQL
+
+MySQL in Python
+
+---
+
+## Week5 - Email
+
+Sending an email
+
+---
+
+## Week6 - Large App Structure
+
+Project structure
+
+---
+
+## Week7 - Project 1
+
+Pet-Rescue
+
+---
+
+## Week8 - Project 2
+
+
+
+---
+
+## Week9 - Project 3
+
+---
+
+## Week10 - Project 4
