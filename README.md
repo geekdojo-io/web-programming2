@@ -66,6 +66,46 @@ Example:
 
 #### Bitwise AND (&)
 
+### Prime Numbers
+
+```python
+
+import math
+
+# Simple approach
+def isPrime1(n):
+    if n < 2:
+        return False
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
+
+# Slightly optimized
+def isPrime2(n):
+    if n < 2:
+        return False
+    for i in range(2, int(math.sqrt(n))+1):
+        if n % i == 0:
+            return False
+    return True 
+
+# More optimized
+def isPrime3(n):
+    if n < 2:
+        return False
+    if n % 2 == 0 and n > 2:
+        return False
+    for i in range(3, int(math.sqrt(n))+1, 2):
+        if n % i == 0:
+            return False
+    return True 
+
+N = int(input())
+print(isPrime3(N))
+
+```
+
 
 #### Routes and Templates
 
