@@ -117,6 +117,36 @@ print(isPrime3(N))
 
 ## Week2 - Bootstrap: Better CSS
 
+### Binary Numbers - Base Conversion
+
+```python
+
+def convertToBase2(n):
+    s = ''
+    while n > 0:
+        if n % 2 == 0:
+            s = '0' + s
+        else:
+            s = '1' + s
+        n >>= 1
+    return s
+
+def convertBinaryToBase10(s):
+    n = 0
+    digit = 1
+    for i in reversed(range(len(s))):
+        n += int(s[i]) * digit
+        digit <<= 1
+    return n
+
+N = int(input('Enter base10 integer, i.e. 13: '))
+print(convertToBase2(N))
+s = input('Enter binary string, i.e. 1010: ')
+print(convertBinaryToBase10(s))
+
+
+```
+
 Bootstrap
 
 Bootstrap in Python
