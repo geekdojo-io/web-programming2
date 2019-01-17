@@ -146,6 +146,31 @@ print(convertBinaryToBase10(s))
 
 
 ```
+### AWS Lambda for Slack Notification
+```python
+import json
+from botocore.vendored import requests
+
+print('Loading function')
+
+def lambda_handler(event, context):
+
+    BASE_URL = 'https://hooks.slack.com/services'
+    
+    API_PATH = '{YOUR_API_PATH}'
+    msg = '{some message}'
+    
+    
+    data = '{{"text":"{}"}}'.format(msg)
+    
+    wekbook_url =  '{}/{}'.format(BASE_URL, API_PATH)    
+
+    response = requests.post(wekbook_url, data=data, headers={'Content-Type': 'application/json'})    
+
+    print('Response: ' + str(response.text))
+    print('Response code: ' + str(response.status_code))
+
+```
 
 ---
 
