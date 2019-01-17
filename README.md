@@ -149,7 +149,9 @@ print(convertBinaryToBase10(s))
 
 
 ```
-### AWS Lambda for Slack Notification
+### AWS Lambda
+
+#### AWS Lambda for Slack Notification
 ```python
 import json
 from botocore.vendored import requests
@@ -172,6 +174,16 @@ def lambda_handler(event, context):
     }
     
 ```
+
+##### JSON
+
+##### Request
+
+##### Method: Get/PUT/POST/DELETE/PATCH
+
+##### Response
+
+##### StatusCode
 
 ---
 
