@@ -115,7 +115,7 @@ print(isPrime3(N))
 
 ---
 
-## Week2 - Bootstrap: Better CSS
+## Week2 - AWS Lambda - Slack Notification
 
 ### Binary Numbers - Base Conversion
 
@@ -146,10 +146,6 @@ print(convertBinaryToBase10(s))
 
 
 ```
-
-Bootstrap
-
-Bootstrap in Python
 
 ---
 
