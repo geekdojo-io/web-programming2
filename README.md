@@ -174,6 +174,7 @@ def lambda_handler(event, context):
     }
     
 ```
+##### Python modules (import)
 
 ##### JSON
 
