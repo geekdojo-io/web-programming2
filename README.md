@@ -154,22 +154,20 @@ from botocore.vendored import requests
 print('Loading function')
 
 def lambda_handler(event, context):
-
-    BASE_URL = 'https://hooks.slack.com/services'
     
-    API_PATH = '{YOUR_API_PATH}'
-    msg = '{some message}'
+    URL = '[YOUR_SLACK_INCOMING_WEBHOOK_URL]'
+    message = 'Hello from AWS Lambda'
+    data = '{{"text":"{}"}}'.format(message)
+    response = requests.post(URL, data=data, headers={'Content-Type': 'application/json'})
     
-    
-    data = '{{"text":"{}"}}'.format(msg)
-    
-    wekbook_url =  '{}/{}'.format(BASE_URL, API_PATH)    
-
-    response = requests.post(wekbook_url, data=data, headers={'Content-Type': 'application/json'})    
-
     print('Response: ' + str(response.text))
     print('Response code: ' + str(response.status_code))
-
+    
+    return {
+        'statusCode': response.status_code,
+        'body': response.text
+    }
+    
 ```
 
 ---
