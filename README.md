@@ -21,6 +21,8 @@ This course takes a deeper dive from the Web Programming Course I. Similar to th
 - Learn database and database programming
 - Build your own web applications
 - Build a large web application with team
+- Rest APIs
+- Distributed computing
 
 ## Textbook
 
