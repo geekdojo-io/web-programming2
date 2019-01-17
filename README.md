@@ -6,6 +6,7 @@ This course takes a deeper dive from the Web Programming Course I. Similar to th
 #### Algorithms/Programming Challenges
 
 - Binary Numbers / Number Theory
+- Computers (Architecture & Compilers)
 - Binary Search
 - Big O notation
 - Sort
