@@ -120,6 +120,108 @@ print(isPrime3(N))
 
 ## Week2 - AWS Lambda - Slack Notification
 
+### AWS Lambda
+
+#### AWS Lambda for Slack Notification
+```python
+import json
+from botocore.vendored import requests
+
+print('Loading function')
+
+def lambda_handler(event, context):
+    
+    URL = '[YOUR_SLACK_INCOMING_WEBHOOK_URL]'
+    message = 'Hello from AWS Lambda'
+    data = '{{"text":"{}"}}'.format(message)
+    response = requests.post(URL, data=data, headers={'Content-Type': 'application/json'})
+    
+    print('Response: ' + str(response.text))
+    print('Response code: ' + str(response.status_code))
+    
+    return {
+        'statusCode': response.status_code,
+        'body': response.text
+    }
+    
+```
+
+#### AWS Lambda for Price Check
+```python
+import json
+from botocore.vendored import requests
+
+print('Loading function')
+
+def lambda_handler(event, context):
+    
+    URL = '[YOUR_SLACK_INCOMING_WEBHOOK_URL]'
+    message = 'Hello from AWS Lambda'
+    data = '{{"text":"{}"}}'.format(message)
+    response = requests.post(URL, data=data, headers={'Content-Type': 'application/json'})
+    
+    print('Response: ' + str(response.text))
+    print('Response code: ' + str(response.status_code))
+    
+    return {
+        'statusCode': response.status_code,
+        'body': response.text
+    }
+    
+```
+
+### AWS Lambda for Price Alert
+```python
+
+import json
+from botocore.vendored import requests
+
+def shouldAlert():
+    URL = 'https://s3-us-west-2.amazonaws.com/fancy-store/index.html'
+    response = requests.get(URL)
+    
+    print(response.status_code)
+    print(response.text)
+    
+    if '<div>Available</div>' in response.text:
+        return True
+    else:
+        return False
+
+def alert(message):
+    URL = '[YOUR_SLACK_INCOMING_WEBHOOK_URL]'
+    data = '{{"mrkdwn":true, "text":"{}"}}'.format(message)
+    response = requests.post(URL, data=data, headers={'Content-Type': 'application/json'})    
+
+def lambda_handler(event, context):
+    
+    if shouldAlert():
+        alert('*Price Alert* \n Price has changed :smile: :brain: :face-screaming-in-fear:')
+    
+    # TODO implement
+    return {
+        'statusCode': 200,
+        'body': json.dumps('Lambda completed!')
+    }
+
+```
+##### Python modules (import)
+
+##### JSON
+
+##### Request
+
+##### Method: Get/PUT/POST/DELETE/PATCH
+
+##### Response
+
+##### StatusCode
+
+---
+
+## Week3
+
+
 ### Binary Numbers - Base Conversion
 
 ```python
@@ -149,82 +251,42 @@ print(convertBinaryToBase10(s))
 
 
 ```
-### AWS Lambda
 
-#### AWS Lambda for Slack Notification
-```python
-import json
-from botocore.vendored import requests
+### Web Forms
 
-print('Loading function')
-
-def lambda_handler(event, context):
-    
-    URL = '[YOUR_SLACK_INCOMING_WEBHOOK_URL]'
-    message = 'Hello from AWS Lambda'
-    data = '{{"text":"{}"}}'.format(message)
-    response = requests.post(URL, data=data, headers={'Content-Type': 'application/json'})
-    
-    print('Response: ' + str(response.text))
-    print('Response code: ' + str(response.status_code))
-    
-    return {
-        'statusCode': response.status_code,
-        'body': response.text
-    }
-    
-```
-##### Python modules (import)
-
-##### JSON
-
-##### Request
-
-##### Method: Get/PUT/POST/DELETE/PATCH
-
-##### Response
-
-##### StatusCode
-
----
-
-## Week3 - Web Forms
-
-Web Forms
-
-Web Forms in Python
+### Web Forms in Python
 
 ---
 
 ## Week4 - Database Programming
 
-Database
+### Database
 
-SQL
+### SQL
 
-SQL vs. NoSQL
+### SQL vs. NoSQL
 
-MySQL
+### MySQL
 
-MySQL in Python
+### MySQL in Python
 
 ---
 
 ## Week5 - Email
 
-Sending an email
+### Sending an email
 
 ---
 
 ## Week6 - Large App Structure
 
-Project structure
+### Project structure
 
 ---
 
 ## Week7 - Project 1
 
-Pet-Rescue
+### Pet-Rescue
 
 ---
 
