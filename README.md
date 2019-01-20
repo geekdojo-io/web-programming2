@@ -118,7 +118,12 @@ print(isPrime3(N))
 
 ---
 
-## Week2 - AWS Lambda - Slack Notification
+## Week2 - Digital Circuits, Cloud Computing and AWS Lambda
+
+### Digitial Circuits
+
+![alt text](/images/and_gate.png)
+
 
 ### AWS Lambda
 
