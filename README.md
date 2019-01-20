@@ -122,7 +122,44 @@ print(isPrime3(N))
 
 ### Digitial Circuits
 
+#### Bitwise OR (&) / AND Gate
+
 ![alt text](/images/and_gate.png)
+
+
+#### Bitwise OR (|) / OR Gate
+
+![alt text](/images/or_gate.png)
+
+
+#### Bitwise XOR (^) / XOR Gate
+
+![alt text](/images/xor_gate.png)
+
+
+
+#### Bitwise NOT (~) / NOT Gate
+
+![alt text](/images/not_gate.png)
+
+
+#### Half Adder
+
+##### Practice - Complete the Truth Table
+![alt text](/images/half_adder1.png)
+
+
+##### Truth Table for Half Adder
+![alt text](/images/half_adder2.png)
+
+
+#### Full Adder
+
+##### Practice - Complete the Truth Table
+![alt text](/images/full_adder1.png)
+
+##### Truth Table for Full Adder
+![alt text](/images/full_adder2.png)
 
 
 ### AWS Lambda
