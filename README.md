@@ -35,6 +35,9 @@ This course will use Flask Web Development, 2nd edition by Miguel Grinberg as a 
 ---
 ## Week1 - Refresh Previous Course
 
+### Lecture Note
+[Lecture Note for Week 1](https://github.com/geekdojo-io/web-programming2/blob/master/LectureNote_Week1.pdf)
+
 ### Review of Binary Numbers
 
 #### Power of 2s
@@ -109,16 +112,13 @@ print(isPrime3(N))
 
 ```
 
-
-#### Routes and Templates
-
-#### CSS
-
-#### Flask Template 
-
 ---
 
 ## Week2 - Digital Circuits, Cloud Computing and AWS Lambda
+
+
+### Lecture Note
+[Lecture Note for Week 2](https://github.com/geekdojo-io/web-programming2/blob/master/LectureNote_Week2.pdf)
 
 ### Digitial Circuits
 
