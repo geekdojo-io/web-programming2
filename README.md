@@ -280,10 +280,10 @@ def convertToBase2(n):
 
 def convertBinaryToBase10(s):
     n = 0
-    digit = 1
+    d = 1
     for i in reversed(range(len(s))):
-        n += int(s[i]) * digit
-        digit <<= 1
+        n += int(s[i]) * d
+        d <<= 1
     return n
 
 N = int(input('Enter base10 integer, i.e. 13: '))
