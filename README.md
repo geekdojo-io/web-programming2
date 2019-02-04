@@ -348,13 +348,13 @@ print(convertBinaryToBase10(s))
 
 ---
 
-## Week12/13 - Project 1
+## Week12/13 - Project 2
 
 ### Pet-Rescue
 
 ---
 
-## Week14/15 - Project 2
+## Week14/15 - Project 3
 
 ---
 
