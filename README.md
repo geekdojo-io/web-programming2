@@ -294,13 +294,21 @@ print(convertBinaryToBase10(s))
 
 ```
 
-### Web Forms
+--- 
 
-### Web Forms in Python
+
+## Week4 - Practice Base Conversion, Bootstrap4 and Font Awesome
+
+## Week5 - Flask with Bootstrap
+
+
+### Week6 - Web Forms
+
+### Week7 - Web Forms in Python
 
 ---
 
-## Week4 - Database Programming
+## Week8 / 9 - Database Programming
 
 ### Database
 
@@ -314,32 +322,28 @@ print(convertBinaryToBase10(s))
 
 ---
 
-## Week5 - Email
+## Week10 - Email
 
 ### Sending an email
 
 ---
 
-## Week6 - Large App Structure
+## Week11 - API programming
 
 ### Project structure
 
 ---
 
-## Week7 - Project 1
+## Week12/13 - Project 1
 
 ### Pet-Rescue
 
 ---
 
-## Week8 - Project 2
-
-
+## Week14/15 - Project 2
 
 ---
 
-## Week9 - Project 3
+## Week16 - Wrap-up
 
----
 
-## Week10 - Project 4
