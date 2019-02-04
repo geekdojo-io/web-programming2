@@ -305,11 +305,11 @@ print(convertBinaryToBase10(s))
 
 ---
 
-### Week6 - Web Forms
+## Week6 - Web Forms
 
 ---
 
-### Week7 - Web Forms in Python
+## Week7 - Web Forms in Python
 
 ---
 
