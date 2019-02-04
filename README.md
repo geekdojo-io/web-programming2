@@ -299,10 +299,15 @@ print(convertBinaryToBase10(s))
 
 ## Week4 - Practice Base Conversion, Bootstrap4 and Font Awesome
 
+---
+
 ## Week5 - Flask with Bootstrap
 
+---
 
 ### Week6 - Web Forms
+
+---
 
 ### Week7 - Web Forms in Python
 
@@ -310,7 +315,10 @@ print(convertBinaryToBase10(s))
 
 ## Week8 / 9 - Database Programming
 
+---
+
 ### Database
+
 
 ### SQL
 
