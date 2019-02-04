@@ -297,7 +297,13 @@ print(convertBinaryToBase10(s))
 --- 
 
 
-## Week4 - Practice Base Conversion, Bootstrap4 and Font Awesome
+## Week4 - Project 1 - Publish your own homepage
+
+### Practice Base Conversion
+
+### Build your own homepage using Bootstrap4 and Font Awesome
+
+### Publish to Internet (Options: GitHub page, AWS S3, etc.)
 
 ---
 
